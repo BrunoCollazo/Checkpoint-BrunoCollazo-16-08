@@ -1,0 +1,15 @@
+  114   touch main.js index.html
+  115  git add .
+  116   git commit -m "commit-01-de-Bruno Collazo"
+  117  git push origin main
+  118  git checkout -b "feature"
+  119  mkdir Hardware Software SeguridadInformatica
+  120  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  121  git add .
+  122  git commit -m "commit-02-de-BrunoCollazo"
+  123    git push origin feature
+  124   git switch main
+  125  git mv main.js resumenHardware.txt
+  126  git mv index.html resumenSoftware.txt
+  127  touch comandos.txt
+  128  history 15 > comandos.txt
